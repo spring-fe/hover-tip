@@ -1,0 +1,20 @@
+#hover_tip{
+	background: #fff;
+	text-align: left;
+	border: 1px solid #e9a932;
+	box-shadow: 0 0 8px #e9a932;
+	display: none;
+	position: absolute;
+	z-index: 1100;
+}
+.g-point{
+	width: 6px;
+	height: 6px;
+}
+#hover_tip .g-point{
+	position: absolute;
+	left: -13px;
+}
+#hover_tip .tip{
+	padding: 10px;
+}
